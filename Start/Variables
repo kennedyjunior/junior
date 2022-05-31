@@ -1,0 +1,63 @@
+#Start/Variables 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace variaveis
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region Numericas Integrais
+            //sbyte numero;
+            //numero = 100;
+
+            //numero = 120;
+            //sbyte num1 = 10;
+            //numero = num1;
+            #endregion
+
+            #region Numeros Reais
+            //float real1 = 100f;
+            //double real2 = 500.754;
+            //decimal real3 = 0.25458m;
+
+            //double valor;
+            //valor = real1 * real2;
+            #endregion
+
+            #region Type Char/Caractere
+            //char letra = '\u0061';
+            //char escape = '\n';
+            //char literal = 'C';
+            #endregion
+
+            #region Boolean
+            //bool verificar = false;
+            //verificar = true;
+            #endregion
+
+            #region String
+            //string texto = "Olá, Tudo Bem?";
+            //string mensagem = null;
+            //mensagem = texto;
+            //string texto2 = "Rapaizzzz";
+            //string texto3 = "ratinhonhonhonho";
+            //string texto4 = @"\n";
+            #endregion
+
+            #region Var
+            //var valor = "um";
+            //valor = "dois";
+            //var valor2 = 1;
+            //valor2 = 2;
+            #endregion
+            
+            Console.WriteLine();
+            Console.ReadKey();
+        }
+    }
+}
